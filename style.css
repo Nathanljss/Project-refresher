@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  background-image: url(esl-tokyo-language-stay-hero.jpg);
+  height: 100vh;
+  z-index: 0;
+}
+
+.navbar {
+  display: flex;
+  color: antiquewhite;
+  background-color: black;
+  border: solid white;
+  border-radius: 20px;
+  z-index: 1;
+  position: fixed;
+  width: 500px;
+  align-items: center;
+  padding-left: 50px;
+  left: 5px;
+}
+
+.navbarLinks {
+  color: antiquewhite;
+  padding: 20px;
+}
+
+.midtext {
+  background-color: black;
+  color: aliceblue;
+  border: solid black;
+  border-radius: 20px;
+  z-index: 1;
+  size: 100px;
+  justify-items: left;
+}
+
+.towerBox {
+  display: flex;
+  flex-direction: row;
+  height: 1000px;
+  width: 200px;
+  position: relative;
+  left: 1425px;
+}
+
+.signature {
+  text-align: center;
+  display: flex;
+  font-family: monospace;
+  background-color: black;
+  color: antiquewhite;
+  flex-direction: column;
+  height: 20px;
+  align-self: flex-end;
+  bottom: 5px;
+}
